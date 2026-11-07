@@ -1,0 +1,43 @@
+
+.mylink ul{
+
+    list-style-type: none;
+    background-color:rgba(255,240,245,0.2);
+    padding: 5px;
+    margin-top:0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}.mylink a{
+    display:flex ;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 13px;
+    color: lightgray;
+    font-family: Montserrat,Rufina;
+    text-decoration: none;
+}
+body{
+    background-image: url("photo/blackhole.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;    
+}.mylink li{
+    
+    margin: 10px;
+    float: left;
+}.mylink a:hover{
+color:#d2cdc8cc ;
+}
+.pre1{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 60px;
+    color: azure;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    font-family: "Isometra", "sans-serif";
+}

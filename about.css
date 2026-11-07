@@ -1,0 +1,79 @@
+.mylink ul{
+    list-style-type: none;
+    background-color:rgba(255,240,245,0.2);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+   
+}.mylink a{
+
+    display: flex;
+    text-align: center;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 13px;
+    color: lightgray;
+    font-family: Montserrat,Rufina;
+}.mylink a:hover{
+
+    color: #d2cdc8cc;
+    
+}
+body{
+    background-image: url("photo/blackhole.gif");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}.mylink li{
+    
+    margin: 10px;
+    float: left;
+}
+body{
+    background: linear-gradient(to left,black,#29272c);
+    background-image: url("photo/blackhole.gif");
+    background-position-x: center;
+    background-size: 1300px;
+}
+.pre2{
+
+    border: 2px solid rgba(220,205,205,0.1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 400px;
+    height: 450px;
+    transform: translateY(80px);
+    background-color:rgba(220,205,205,0.2);
+}
+.pre2 h1{
+    
+    transform: translate(0px,-10px);
+    font-size: 30px;
+    font-family: Montserrat,Rufina;
+    text-align: center;
+    color:lightgray;
+    
+}.pre2 p{
+    padding-left: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    font-family: Rufina;
+    color: rgba(230,230,220,0.2) ;
+    
+}.pre2 h3{
+
+    font-size:20px;
+    padding-left: 7px;
+    color: rgba(230,230,220,0.2) ;
+}.pre2 h3 a{
+
+    color: rgba(251, 210, 80, 0.2);
+    text-decoration: none;
+}.pre2 h3 a:hover{
+
+    color: rgba(251,207, 75, 0.5);
+}

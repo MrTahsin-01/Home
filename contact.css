@@ -1,0 +1,80 @@
+.mylink ul{
+
+    list-style-type: none;
+    background-color:rgba(255,240,245,0.2);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}.mylink a{
+
+    display: flex;
+    text-align: center;
+    padding: 13px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: lightgray;
+    font-family: Montserrat,Rufina;
+}.mylink a:hover{
+
+    color: #d2cdc8cc;
+}
+body{
+    background-image: url("photo/blackhole.gif");
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}.mylink li{
+    
+    margin: 10px;
+    float: left;
+}
+body{
+
+    background-image: url("photo/blackhole.gif");
+    background-position: center;
+    background-size: cover;
+}.icon{
+    position:fixed;
+    left: 530px;
+    bottom: 40px;
+    border: 6px solid rgba(250, 235, 215, 0.2);
+   border-radius: 50px;
+   overflow: hidden;
+    align-items: center;
+   
+}.icon a{
+    text-decoration: none;
+}.fa-github{
+    font-size: 45px;
+    color: rgba(250, 235, 215, 0.4);
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}.fa-github:hover{
+    color: rgba(250, 235, 215, 0.8);
+}
+.fa-at{
+    font-size: 40px;
+    color: rgba(250, 235, 215, 0.4);
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.fa-at:hover
+{color: rgba(250, 235, 215, 0.8);}
+.fa-linkedin{
+    font-size: 40px;
+    color: rgba(250, 235, 215, 0.4);
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.fa-linkedin:hover{color: rgba(250, 235, 215, 0.8);}
